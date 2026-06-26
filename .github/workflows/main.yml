@@ -185,6 +185,7 @@ jobs:
       with:
         repository: git/git
         definitionId: 9
+        path: lib/compat
     - name: add msbuild to PATH
       uses: microsoft/setup-msbuild@v3
     - name: copy dlls to root
